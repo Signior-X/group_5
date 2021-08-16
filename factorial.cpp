@@ -10,8 +10,12 @@ int factorial(int n){
         cout << "\n A negative number found! Enter a positive number: ";
         cin >> n;
     }
-    if(n!=1){
-	return(n * factorial(n-1));
+
+    cout << "FActorial" << "done";
+
+    if( n !=1 ) {
+	    return(n * factorial(n-1));
     }
-    else return 1;
+
+    return 1;
 }
